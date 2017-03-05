@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/webhook/', function (req, res) {
-    if (req.query['hub.verify_token'] === 'Bot_Messenger_App') {
+    if (req.query['hub.verify_token'] === 'FACEBOT_MESSENGERAPP123') {
         res.send(req.query['hub.challenge'])
     }
     res.send('Error, wrong token')
@@ -54,7 +54,7 @@ app.post('/webhook/', function (req, res) {
     res.sendStatus(200)
 })
 
-var token = "entrez votre token ici"
+var token = "EAADjIRolr7wBAF6wwHe9R2QQ3t0wluM03WTUhCQjZBWUIz9NRWSRLAmFZBd67xsJ2XGvZBrN4wB2m9pF3CaFzCyH5vn2AivzodSAZC9h7ROFcGmW9PrG8zURExFZBQC7ZAw7qD8hkKClURywVbWOMygbqCEdPJEJdsSE8d1V3jfwZDZD"
 
 // Echo back messages
 
