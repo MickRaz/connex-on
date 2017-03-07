@@ -1,4 +1,4 @@
-// El Mehdi LAIDOUNI
+// FBot Messenger server
 
 var express = require('express')
 var bodyParser = require('body-parser')
